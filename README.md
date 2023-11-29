@@ -41,6 +41,18 @@ dependencies {
 ```kotlin
 dependencies {
     implementation("com.github.gofa-software:gofa-speed-limit:1.0.0")
+
+    val retrofitVersion = "2.9.0"
+    implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
+    implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")
+
+    implementation("com.google.code.gson:gson:2.10.1")
+
+    val coroutineVersion = "1.7.3"
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
 }
 ```
 
