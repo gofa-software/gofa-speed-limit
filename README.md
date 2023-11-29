@@ -1,4 +1,4 @@
-# Gofa speed limit library for android
+# Gofa speed limit library for android device
 
 ## Installation
 
