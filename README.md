@@ -32,7 +32,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-    implementation 'com.github.gofa-software:gofa-speed-limit:1.0.0'
+    implementation 'com.github.gofa-software:gofa-speed-limit:1.0.7'
 }
 ```
 
@@ -40,7 +40,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.github.gofa-software:gofa-speed-limit:1.0.0")
+    implementation("com.github.gofa-software:gofa-speed-limit:1.0.7")
 
     val retrofitVersion = "2.9.0"
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
